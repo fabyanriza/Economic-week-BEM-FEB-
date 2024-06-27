@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Quida-Sript";
+  src: url("/fonts/Quida-Script.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply m-0 p-0 w-full h-full;
+}
+
+#root {
+  @apply m-0 p-0;
+}
